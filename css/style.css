@@ -1,0 +1,155 @@
+body{
+    background-image: url("../img/background\ image.jpg");
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+.column{  
+    background:black;
+    color: wheat;
+    width: 30rem;
+    height: 20rem;
+}
+
+.blue .column{
+    background:whitesmoke;
+    color: gray;
+}
+
+.red .column{
+    background: whitesmoke;
+    color: gray;
+}
+
+.column.second{
+    background:red;
+    color: wheat;
+    text-align: center;
+    width: 26rem;
+}
+
+.blue .second{
+    background: blue;
+}
+
+.red .second{
+    background:green;
+}
+
+.container{
+    margin-top: 2rem;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container.two{
+    margin-top: 4rem;
+    padding-left:  20px;
+    padding-right: 20px;
+    font-weight: 10;
+    font-size: larger;
+}
+
+.container input{
+    width: 27rem;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+}
+.login{
+    background-color: red;
+    color: white;
+    border: 1px solid orange;
+    padding: 1rem;
+    margin-top:0.5rem;
+}
+
+.blue .login{
+    background-color: blue;
+    border: 1px solid steelblue;
+}
+.red .login{
+    background-color: green;
+    border: 1px solid greenyellow;
+}
+.login:hover{
+    background-color: gray;
+    color: pink;
+}
+
+.blue .login:hover{
+    background-color: white;
+    color:brown;
+}
+.red .login:hover{
+    background-color:rebeccapurple;
+    color: whitesmoke;
+}
+input::placeholder{
+
+    color: white;
+}
+input{
+    background-color: gray;
+    color: white;
+}
+
+span{
+    float: right;
+    margin-top: 1rem;
+}
+
+.psw{
+    color: red;
+}
+
+.blue .psw{
+    color: blue;
+}
+
+.red .psw{
+    color: green;
+}
+.psw:hover{
+    color:white;
+}
+
+.blue .psw:hover{
+    color:yellowgreen;
+}
+
+.red .psw:hover{
+    color: red;
+}
+
+.register{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background-color:black; 
+}
+
+.blue .register{    
+    background-color: black; 
+}
+
+.red .register{    
+    background-color:black; 
+}
+.register:hover{
+    background-color: yellow;
+    color: white;
+}
+.blue .register:hover{
+    background-color: gray;
+    color: blue;
+}
+.red .register:hover{
+    background-color: white;
+    color: orange;
+}
